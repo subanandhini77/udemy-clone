@@ -1,0 +1,146 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid black 1px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.navbar__s1__title {
+    color: #a435f0;
+}
+
+.navbar__s2 {
+    display: flex;
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 60%;
+    gap: 10px;
+}
+
+.navbar__s2 input {
+    font-size: 15px;
+    border: none;
+    width: 100%;
+}
+
+.navbar__s2 input:focus {
+    outline: none;
+}
+
+.navbar__s3 {
+    display: flex;
+    gap: 10px;
+    font-size: 15px;
+}
+
+.categories {
+    display: flex;
+    padding: 10px;
+    border-bottom: solid black 1px;
+    justify-content: space-around;
+}
+
+.categories p {
+    color: white;
+    background-color: #a435f0;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.sale-image img {
+    width: 100%;
+}
+
+.recommended {
+    padding: 10px;
+}
+
+.coursecard {
+    width: 200px;
+}
+
+.coursecard img {
+    width: 100%;
+}
+
+.recommended__container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.coursecard__image3 {
+    height: 140px;
+}
+
+.coursecard__image4 {
+    height: 140px;
+}
+
+.topics {
+    padding: 10px;
+}
+
+.topics__container {
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.topics__container p {
+    border: solid grey 2px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+
+.popular {
+    padding: 10px;
+}
+
+.popular__container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.popular__coursecard img {
+    height: 200px;
+    width: 300px;
+}
+.Footer{
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+.Footer__one{
+    display: flex;
+    gap: 10px;
+}
+.Footer__one p{
+    margin: 20px;
+}
+.Footer__two{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+}
